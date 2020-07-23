@@ -8,27 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		1D3431CB24C990B500B2C6AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3431CA24C990B500B2C6AD /* AppDelegate.m */; };
-		1D3431CE24C990B500B2C6AD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3431CD24C990B500B2C6AD /* SceneDelegate.m */; };
 		1D3431D124C990B500B2C6AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3431D024C990B500B2C6AD /* ViewController.m */; };
-		1D3431D424C990B500B2C6AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3431D224C990B500B2C6AD /* Main.storyboard */; };
 		1D3431D624C990B700B2C6AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3431D524C990B700B2C6AD /* Assets.xcassets */; };
 		1D3431D924C990B700B2C6AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D3431D724C990B700B2C6AD /* LaunchScreen.storyboard */; };
 		1D3431DC24C990B700B2C6AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3431DB24C990B700B2C6AD /* main.m */; };
+		1D3431E424C994F800B2C6AD /* LMUProxyObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3431E324C994F800B2C6AD /* LMUProxyObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1D3431C624C990B500B2C6AD /* LMUProxyObjTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMUProxyObjTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D3431C924C990B500B2C6AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3431CA24C990B500B2C6AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D3431CC24C990B500B2C6AD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		1D3431CD24C990B500B2C6AD /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		1D3431CF24C990B500B2C6AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1D3431D024C990B500B2C6AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1D3431D324C990B500B2C6AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D3431D524C990B700B2C6AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D3431D824C990B700B2C6AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D3431DA24C990B700B2C6AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D3431DB24C990B700B2C6AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D3431E224C994F800B2C6AD /* LMUProxyObj.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMUProxyObj.h; sourceTree = "<group>"; };
+		1D3431E324C994F800B2C6AD /* LMUProxyObj.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMUProxyObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +61,10 @@
 			children = (
 				1D3431C924C990B500B2C6AD /* AppDelegate.h */,
 				1D3431CA24C990B500B2C6AD /* AppDelegate.m */,
-				1D3431CC24C990B500B2C6AD /* SceneDelegate.h */,
-				1D3431CD24C990B500B2C6AD /* SceneDelegate.m */,
 				1D3431CF24C990B500B2C6AD /* ViewController.h */,
 				1D3431D024C990B500B2C6AD /* ViewController.m */,
-				1D3431D224C990B500B2C6AD /* Main.storyboard */,
+				1D3431E224C994F800B2C6AD /* LMUProxyObj.h */,
+				1D3431E324C994F800B2C6AD /* LMUProxyObj.m */,
 				1D3431D524C990B700B2C6AD /* Assets.xcassets */,
 				1D3431D724C990B700B2C6AD /* LaunchScreen.storyboard */,
 				1D3431DA24C990B700B2C6AD /* Info.plist */,
@@ -135,7 +132,6 @@
 			files = (
 				1D3431D924C990B700B2C6AD /* LaunchScreen.storyboard in Resources */,
 				1D3431D624C990B700B2C6AD /* Assets.xcassets in Resources */,
-				1D3431D424C990B500B2C6AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,21 +145,13 @@
 				1D3431D124C990B500B2C6AD /* ViewController.m in Sources */,
 				1D3431CB24C990B500B2C6AD /* AppDelegate.m in Sources */,
 				1D3431DC24C990B700B2C6AD /* main.m in Sources */,
-				1D3431CE24C990B500B2C6AD /* SceneDelegate.m in Sources */,
+				1D3431E424C994F800B2C6AD /* LMUProxyObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1D3431D224C990B500B2C6AD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1D3431D324C990B500B2C6AD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1D3431D724C990B700B2C6AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,13 +280,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DFS5TV54FJ;
 				INFOPLIST_FILE = LMUProxyObjTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.miul.LMUProxyObjTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,13 +298,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DFS5TV54FJ;
 				INFOPLIST_FILE = LMUProxyObjTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.miul.LMUProxyObjTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
